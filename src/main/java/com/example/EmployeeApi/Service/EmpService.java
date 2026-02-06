@@ -42,7 +42,7 @@ public class EmpService {
 if (empDto.getEname()!=null) {
     e.setEname(empDto.getEname());
 }
-if (empDto.getEname()!=null) {
+if (empDto.getSal()!=null) {
     e.setSal(empDto.getSal());
 }
         empRepository.save(e);
